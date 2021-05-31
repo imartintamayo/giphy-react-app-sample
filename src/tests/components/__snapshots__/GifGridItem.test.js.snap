@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test <GifGridItem /> component Should render GifGridItem 1`] = `
+<div
+  className="card animate__animated animate__fadeInTopLeft"
+>
+  <img
+    alt="some title"
+    src="http://localhost/some_url.png"
+  />
+  <p>
+    some title
+  </p>
+</div>
+`;
+
+exports[`test <GifGridItem /> component should render GifGridItem 1`] = `
+<div
+  className="card animate__animated animate__fadeInTopLeft"
+>
+  <img
+    alt="some title"
+    src="http://localhost/some_url.png"
+  />
+  <p>
+    some title
+  </p>
+</div>
+`;
