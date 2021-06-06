@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test <GifGrid /> should be displayed correctly 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__rotateInDownLeft"
+  >
+    some category
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`test <GifGrid /> should display items when useFetchGifs has resolved data 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__rotateInDownLeft"
+  >
+    some category
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="someId"
+      key="someId"
+      title="someTitle"
+      url="someUrl"
+    />
+    <GifGridItem
+      id="someId2"
+      key="someId2"
+      title="someTitle2"
+      url="someUrl2"
+    />
+  </div>
+</Fragment>
+`;
